@@ -1,0 +1,13 @@
+{
+	"type" : 1,
+	"user" : "JuneSee",
+	"password" : "JuneSee98",
+	"class" : [
+		"C001",
+		"C002"
+	],
+	"next_app" : {
+		"name" : "weiweitoo",
+		"date" : "2018-12-31"
+	}
+}

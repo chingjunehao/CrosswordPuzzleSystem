@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DB68423-3A89-4E84-8C9E-8E79443167CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CrossWordSys.My.MyApplication</StartupObject>
+    <RootNamespace>CrossWordSys</RootNamespace>
+    <AssemblyName>CrossWordSys</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CrossWordSys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CrossWordSys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddToClass.Designer.vb">
+      <DependentUpon>AddToClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddToClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentInterStudent.Designer.vb">
+      <DependentUpon>AppointmentInterStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentInterStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentInterTeacher.Designer.vb">
+      <DependentUpon>AppointmentInterTeacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentInterTeacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassInterStudent.Designer.vb">
+      <DependentUpon>ClassInterStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClassInterStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassInterTeacher.Designer.vb">
+      <DependentUpon>ClassInterTeacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClassInterTeacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateClass.Designer.vb">
+      <DependentUpon>CreateClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateUser.Designer.vb">
+      <DependentUpon>CreateUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrossWordInter.Designer.vb">
+      <DependentUpon>CrossWordInter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CrossWordInter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.vb">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrame.Designer.vb">
+      <DependentUpon>MainFrame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainInterAdmin.Designer.vb">
+      <DependentUpon>MainInterAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainInterAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainInterParent.Designer.vb">
+      <DependentUpon>MainInterParent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainInterParent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainInterStudent.Designer.vb">
+      <DependentUpon>MainInterStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainInterStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainInterTeacher.Designer.vb">
+      <DependentUpon>MainInterTeacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainInterTeacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MainInterTemplate.Designer.vb">
+      <DependentUpon>MainInterTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainInterTemplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyAppointmentTime.Designer.vb">
+      <DependentUpon>MyAppointmentTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyAppointmentTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUpTemplate.Designer.vb">
+      <DependentUpon>PopUpTemplate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUpTemplate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuizInterStudent.Designer.vb">
+      <DependentUpon>QuizInterStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QuizInterStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuizInterTeacher.Designer.vb">
+      <DependentUpon>QuizInterTeacher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QuizInterTeacher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WritePost.Designer.vb">
+      <DependentUpon>WritePost.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WritePost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddToClass.resx">
+      <DependentUpon>AddToClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentInterStudent.resx">
+      <DependentUpon>AppointmentInterStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppointmentInterTeacher.resx">
+      <DependentUpon>AppointmentInterTeacher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassInterStudent.resx">
+      <DependentUpon>ClassInterStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassInterTeacher.resx">
+      <DependentUpon>ClassInterTeacher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateClass.resx">
+      <DependentUpon>CreateClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateUser.resx">
+      <DependentUpon>CreateUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrossWordInter.resx">
+      <DependentUpon>CrossWordInter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrame.resx">
+      <DependentUpon>MainFrame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainInterAdmin.resx">
+      <DependentUpon>MainInterAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainInterParent.resx">
+      <DependentUpon>MainInterParent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainInterStudent.resx">
+      <DependentUpon>MainInterStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainInterTeacher.resx">
+      <DependentUpon>MainInterTeacher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainInterTemplate.resx">
+      <DependentUpon>MainInterTemplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyAppointmentTime.resx">
+      <DependentUpon>MyAppointmentTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUpTemplate.resx">
+      <DependentUpon>PopUpTemplate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuizInterStudent.resx">
+      <DependentUpon>QuizInterStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuizInterTeacher.resx">
+      <DependentUpon>QuizInterTeacher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WritePost.resx">
+      <DependentUpon>WritePost.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

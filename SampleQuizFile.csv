@@ -1,0 +1,14 @@
+#,#,P,#
+#,#,*,#
+A,*,*,#
+#,#,#,#
+~,,,
+#,#,P,#
+#,#,I,#
+A,P,E,#
+#,#,#,#
+~,,,
+"""#"" means solid block",,,
+"""*"" means empty block to fill in",,,
+First chunk is questions and second one is anwser,,,
+Write your question for the puzzle line by line at here,,,

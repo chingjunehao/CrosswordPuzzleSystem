@@ -1,0 +1,14 @@
+{
+	"class" : [
+		{
+			"name" : "Mathematics",
+			"lecturer" : "JuneSee",
+			"studentNumber" : 1
+		},
+		{
+			"name" : "English",
+			"lecturer" : "JuneSee",
+			"studentNumber" : 1
+		}
+	]
+}

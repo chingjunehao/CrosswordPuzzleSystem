@@ -1,0 +1,35 @@
+{
+	"type" : 2,
+	"user" : "bigweitoo",
+	"password" : "bigweitoo98",
+	"student" : "weiweitoo",
+	"result" : [
+		{
+		"class" : "C001",
+		"average" : {
+			"score": 40.00,
+			"ranking" : 100
+			},
+		"detail" : [
+				{
+				"name" : "Quiz 1",
+				"score" : 80.00,
+				"ranking" : 100
+				},
+				{
+				"name" : "Quiz 2",
+				"score" : 0,
+				"ranking" : 100
+				}
+			]
+		},
+		{
+		"class" : "C002",
+		"average" : {
+			"score": "N/A",
+			"ranking" : "N/A"
+			},
+		"detail" : []
+		}
+	]
+}

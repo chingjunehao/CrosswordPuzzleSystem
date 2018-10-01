@@ -1,0 +1,20 @@
+{
+	"average" : {
+		"averageScore" : "N/A",
+		"rankPerc" : "N/A"
+	},
+	"quiz" : [
+		{
+			"id" : "Q001",
+			"name" : "Random Quiz",
+			"score" : "N/A",
+			"rankPerc" : "N/A"
+		},
+		{
+			"id" : "Q002",
+			"name" : "Another Quiz",
+			"score" : "N/A",
+			"rankPerc" : "N/A"
+		}
+	]
+}
